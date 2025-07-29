@@ -4,7 +4,6 @@
         [/(?<=^|>)\s*Trending Posts(?!\w)/g, 'Popular'],
         [/(?<=^|>)\s*RSVP(?!\w)/g, 'Reserva tu cupo'],
         [/(?<=^|>)\s*Back to(?!\w)/g, 'Regresar a'],
-        [/(?<=^|>)\s*Create space(?!\w)/g, 'Crear espacio'],
         [/(?<=^|>)\s*Getting Started(?!\w)/g, 'Empezando'],
         [/(?<=^|>)\s*Like(?!\w)/g, 'Me gusta'],
         [/(?<=^|>)\s*Inbox(?!\w)/g, 'Bandeja'],
