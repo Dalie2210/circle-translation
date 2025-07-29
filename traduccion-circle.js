@@ -843,7 +843,6 @@
             }
         }
     }
-
     function processNode(node) {
         if (node.nodeType === Node.TEXT_NODE) {
             replaceText(node);
@@ -857,7 +856,6 @@
             }
         }
     }
-
     function handleIframe(iframe) {
         try {
             const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
@@ -866,7 +864,6 @@
             
         }
     }
-
     function debounce(func, wait) {
         let timeout;
         return function executedFunction(...args) {
@@ -878,7 +875,6 @@
             timeout = setTimeout(later, wait);
         };
     }
-
     function handleReactFormModal(modalNode) {
         function processReactFormContent() {
             const textNodes = [];
@@ -888,13 +884,10 @@
                 null,
                 false
             );
-            
             while (treeWalker.nextNode()) {
                 textNodes.push(treeWalker.currentNode);
             }
-            
             textNodes.forEach(replaceText);
-            
             const elements = modalNode.getElementsByTagName('*');
             for (let element of elements) {
                 for (let attr of ['placeholder', 'title', 'alt', 'data-original-title']) {
@@ -911,13 +904,10 @@
                 }
             }
         }
-
         processReactFormContent();
-
         const reactFormObserver = new MutationObserver(debounce(() => {
             processReactFormContent();
         }, 100));
-
         reactFormObserver.observe(modalNode, {
             childList: true,
             subtree: true,
@@ -925,14 +915,12 @@
             attributes: true,
             attributeFilter: ['placeholder', 'title', 'alt', 'data-original-title']
         });
-
         let count = 0;
         const intervalId = setInterval(() => {
             processReactFormContent();
             if (++count >= 10) clearInterval(intervalId);
         }, 500);
     }
-
     const bodyObserver = new MutationObserver((mutations) => {
         mutations.forEach((mutation) => {
             if (mutation.type === 'childList') {
@@ -948,21 +936,17 @@
             }
         });
     });
-
     bodyObserver.observe(document.body, {
         childList: true,
         subtree: true
     });
-
     processNode(document.body);
-
     document.addEventListener('click', (event) => {
         setTimeout(() => {
             const reactForms = document.querySelectorAll('.react-form');
             reactForms.forEach(handleReactFormModal);
         }, 500);
     }, true);
-
     setInterval(() => {
         const reactForms = document.querySelectorAll('.react-form');
         reactForms.forEach((form) => {
