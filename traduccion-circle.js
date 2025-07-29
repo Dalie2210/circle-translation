@@ -827,8 +827,6 @@
         [/(?<=^|>)\s*Hide flagged content preview in emails(?!\w)/g, 'Ocultar la vista previa del contenido marcado en los correos electrónicos'],
         [/(?<=^|>)\s*Hides the preview of flagged posts or comments in email notifications.(?!\w)/g, 'Oculta la vista previa de publicaciones o comentarios marcados en las notificaciones por correo electrónico.'],
     ];
-
-
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
             let newText = node.textContent;
@@ -864,7 +862,7 @@
             const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
             processNode(iframeDocument.body);
         } catch (e) {
-            // Silent fail for cross-origin iframes
+            
         }
     }
 
