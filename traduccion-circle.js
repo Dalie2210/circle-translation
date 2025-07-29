@@ -826,6 +826,7 @@
         [/(?<=^|>)\s*Correo electrónico settings(?!\w)/g, 'Configuración de correo electrónico'],
         [/(?<=^|>)\s*Hide flagged content preview in emails(?!\w)/g, 'Ocultar la vista previa del contenido marcado en los correos electrónicos'],
         [/(?<=^|>)\s*Hides the preview of flagged posts or comments in email notifications.(?!\w)/g, 'Oculta la vista previa de publicaciones o comentarios marcados en las notificaciones por correo electrónico.'],
+        [/(?<=^|>)\s*Welcome to your community(?!\w)/g, 'Bienvenido a la comunidad'],
     ];
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
