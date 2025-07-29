@@ -826,6 +826,7 @@
         [/(?<=^|>)\s*Hide flagged content preview in emails(?!\w)/g, 'Ocultar la vista previa del contenido marcado en los correos electrónicos'],
         [/(?<=^|>)\s*Hides the preview of flagged posts or comments in email notifications.(?!\w)/g, 'Oculta la vista previa de publicaciones o comentarios marcados en las notificaciones por correo electrónico.'],
         [/(?<=^|>)\s*Bienvenido\/a to your community(?!\w)/g, 'Bienvenido/a a la comunidad'],
+        [/(?<=^|>)\s*After a member's post or comment is rejected, all future posts will need admin approval until the member is un-flagged by an admin.(?!\w)/g, 'Después de que se rechaza una publicación o un comentario de un miembro, todas las publicaciones futuras necesitarán la aprobación del administrador hasta que un administrador desmarque al miembro.'],
     ];
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
