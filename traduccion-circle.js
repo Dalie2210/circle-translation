@@ -822,6 +822,7 @@
 [/(?<=^|>)\s*First post or comment approval(?!\w)/g, 'Aprobación de la primera publicación o comentario'],
 [/(?<=^|>)\s*Moderate after rejection(?!\w)/g, 'Moderado después del rechazo'],
 [/(?<=^|>)\s*Todo new comments will be automatically flagged for review and hidden until approved.(?!\w)/g, 'Los comentarios nuevos se marcarán automáticamente para su revisión y se ocultarán hasta que se aprueben.'],
+        [/(?<=^|>)\s*Espacio moderation(?!\w)/g, 'Moderación de espacios'],
     ];
 
 
