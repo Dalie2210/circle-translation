@@ -1084,6 +1084,20 @@
         [/(?<=^|>)\s*Published(?!\w)/g, 'Publicado'],
         [/(?<=^|>)\s*Bienvenido\/a banner(?!\w)/g, 'Banner de bienvenida'],
         [/(?<=^|>)\s*App de celular lock screen(?!\w)/g, 'Pantalla de bloqueo de celular'],
+        [/(?<=^|>)\s*Your home feed is where you'll see new posts.(?!\w)/g, 'Tu feed de inicio es donde verás nuevas publicaciones.'],
+        [/(?<=^|>)\s*Create the first post(?!\w)/g, 'Crea la primera publicación'],
+        [/(?<=^|>)\s*Editar lock screen(?!\w)/g, 'Editar pantalla de bloqueo'],
+        [/(?<=^|>)\s*Editar labels(?!\w)/g, 'Editar etiquetas'],
+        [/(?<=^|>)\s*Available in(?!\w)/g, 'Disponible en'],
+        [/(?<=^|>)\s*This lesson will be available to you on(?!\w)/g, 'Esta lección estará disponible para usted en'],
+        [/(?<=^|>)\s*Vista previa released(?!\w)/g, 'Vista previa lanzada'],
+        [/(?<=^|>)\s*Tú are previewing the course as an enrolled member(?!\w)/g, 'Estás viendo una vista previa del curso como miembro inscrito'],
+        [/(?<=^|>)\s*Return to course dashboard.(?!\w)/g, 'Regresar al panel del curso.'],
+        [/(?<=^|>)\s*Lesson name(?!\w)/g, 'Nombre de la lección'],
+        [/(?<=^|>)\s*Schedule(?!\w)/g, 'Cronograma'],
+        [/(?<=^|>)\s*E-mail notification(?!\w)/g, 'Notificación por correo electrónico'],
+        [/(?<=^|>)\s*Espacio name(?!\w)/g, 'Nombre del espacio'],
+        [/(?<=^|>)\s*Hide space from sidebar(?!\w)/g, 'Ocultar el espacio de la barra lateral'],
     ];
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
