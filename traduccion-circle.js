@@ -1082,6 +1082,8 @@
         [/(?<=^|>)\s*Form name(?!\w)/g, 'Nombre del formulario'],
         [/(?<=^|>)\s*Edited(?!\w)/g, 'Editado'],
         [/(?<=^|>)\s*Published(?!\w)/g, 'Publicado'],
+        [/(?<=^|>)\s*Bienvenido\/a banner(?!\w)/g, 'Banner de bienvenida'],
+        [/(?<=^|>)\s*App de celular lock screen(?!\w)/g, 'Pantalla de bloqueo de celular'],
     ];
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
