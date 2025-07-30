@@ -1197,7 +1197,7 @@
         [/(?<=^|>)\s*JOINED(?!\w)/g, 'UNIDO'],
         [/(?<=^|>)\s*PAYWALL(?!\w)/g, 'MURO DE PAGO'],
         [/(?<=^|>)\s*LAST ACTIVE(?!\w)/g, 'ÚLTIMO ACTIVO'],
-        [/(?<=^|>)\s*Choose which landing page visitors see on your lock screen on the web/mobile web.(?!\w)/g, 'Elija qué página de destino verán los visitantes en su pantalla de bloqueo en la web/web móvil.'],
+        [/(?<=^|>)\s*Choose which landing page visitors see on your lock screen on the web\/mobile web.(?!\w)/g, 'Elija qué página de destino verán los visitantes en su pantalla de bloqueo en la web/web móvil.'],
         [/(?<=^|>)\s*App de celular app users will see your Mobile Lock Screen.(?!\w)/g, 'Los usuarios de la aplicación móvil verán la pantalla de bloqueo de su móvil.'],
         [/(?<=^|>)\s*Administrar all pages(?!\w)/g, 'Administrar todas las páginas'],
         [/(?<=^|>)\s*Pantalla de bloqueo page:(?!\w)/g, 'Página de Pantalla de bloqueo:'],
