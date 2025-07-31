@@ -1207,6 +1207,7 @@
         [/(?<=^|>)\s*Pantalla de bloqueo page:(?!\w)/g, 'Página de Pantalla de bloqueo:'],
         [/(?<=^|>)\s*When enabled, a lock icon is displayed to non-members, indicating restricted access. If disabled, non-members will see the space emoji instead.(?!\w)/g, 'Al activarse, se muestra un icono de candado para quienes no son miembros, lo que indica acceso restringido. Si se desactiva, verán el emoji del espacio.'],
         [/(?<=^|>)\s*Show lock icon to non-members of this space(?!\w)/g, 'Mostrar el icono del candado a quienes no son miembros de este espacio'],
+        [/(?<=^|>)\s*Correo electrónico Hub(?!\w)/g, 'Email Hub'],
     ];
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
