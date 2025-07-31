@@ -1083,7 +1083,7 @@
         [/(?<=^|>)\s*Edited(?!\w)/g, 'Editado'],
         [/(?<=^|>)\s*Published(?!\w)/g, 'Publicado'],
         [/(?<=^|>)\s*Bienvenido\/a banner(?!\w)/g, 'Banner de bienvenida'],
-        [/(?<=^|>)\s*App de celular lock screen(?!\w)/g, 'Pantalla de bloqueo de celular'],
+        [/(?<=^|>)\s*App de celular lock screen(?!\w)/g, 'Pantalla de bloqueo'],
         [/(?<=^|>)\s*Your home feed is where you'll see new posts.(?!\w)/g, 'Tu feed de inicio es donde verás nuevas publicaciones.'],
         [/(?<=^|>)\s*Create the first post(?!\w)/g, 'Crea la primera publicación'],
         [/(?<=^|>)\s*Editar lock screen(?!\w)/g, 'Editar pantalla de bloqueo'],
