@@ -1103,13 +1103,12 @@
         [/(?<=^|>)\s*Anyone in your community can see and join this space(?!\w)/g, 'Cualquier persona de tu comunidad puede ver y unirse a este espacio.'],
         [/(?<=^|>)\s*Visible to all members of your community(?!\w)/g, 'Visible para todos los miembros de tu comunidad'],
         [/(?<=^|>)\s*Closed(?!\w)/g, 'Cerrado'],
-        [/(?<=^|>)\s*Only members who are added by you or by purchasing a gated paywall will be able to access this space(?!\w)/g, 'Solo los miembros que usted agregue o que adquieran un muro de pago podrán acceder a este espacio.'],
+        [/(?<=^|>)\s*Cerrado. Only members who are added by you or by purchasing a gated paywall will be able to access this space(?!\w)/g, 'Solo los miembros que usted agregue o que adquieran un muro de pago podrán acceder a este espacio.'],
         [/(?<=^|>)\s*Invitados members only(?!\w)/g, 'Solo para miembros invitados'],
         [/(?<=^|>)\s*Non-members will see the lock screen, which you can customize in the "Lock Screen" tab above. If you're gating this space with a paywall, we suggest linking to the checkout URL from your lock screen(?!\w)/g, 'Quienes no sean miembros verán la pantalla de bloqueo, que pueden personalizar en la pestaña "Pantalla de bloqueo" que aparece arriba. Si están bloqueando este espacio con un muro de pago, les sugerimos enlazar a la URL de pago desde su pantalla de bloqueo.'],
         [/(?<=^|>)\s*Web & Mobile Web(?!\w)/g, 'Web y Web móvil'],
-        [/(?<=^|>)\s*Shows selected landing page below (or default lock screen if none selected)(?!\w)/g, 'Muestra la página de destino seleccionada a continuación (o la pantalla de bloqueo predeterminada si no se seleccionó ninguna)'],
+        [/(?<=^|>)\s* Shows selected landing page below (or default lock screen if none selected)(?!\w)/g, 'Muestra la página de destino seleccionada a continuación (o la pantalla de bloqueo predeterminada si no se seleccionó ninguna)'],
         [/(?<=^|>)\s*App de celular Apps: Shows lock screen configured in Lock Screen tabs(?!\w)/g, 'App de celular Apps: Muestra la pantalla de bloqueo configurada en las pestañas de Pantalla de bloqueo'],
-        [/(?<=^|>)\s*Closed. Only members who are added by you or by purchasing a gated paywall will be able to access this space.(?!\w)/g, 'Cerrado. Solo los miembros que agregues o adquieras un muro de pago podrán acceder a este espacio.'],
         [/(?<=^|>)\s*Invitados members only. Non-members will not see that this space exists.(?!\w)/g, 'Solo para miembros invitados. Quienes no sean miembros no verán la existencia de este espacio.'],
         [/(?<=^|>)\s*Curso topics(?!\w)/g, 'Temas del curso'],
         [/(?<=^|>)\s*Categorize your course and allow members to filter courses with the topic navigation bar in the courses directory. You can define up to 20 topics per course(?!\w)/g, 'Categoriza tu curso y permite que los miembros filtren los cursos con la barra de navegación de temas en el directorio de cursos. Puedes definir hasta 20 temas por curso.'],
@@ -1231,6 +1230,9 @@
         [/(?<=^|>)\s*back to the course dashboard.(?!\w)/g, 'volver al panel del curso.'],
         [/(?<=^|>)\s*Borrar section(?!\w)/g, 'Sección de Borrar'],
         [/(?<=^|>)\s*Cambiar nombre section(?!\w)/g, 'Cambiar nombre sección'],
+        [/(?<=^|>)\s*No files(?!\w)/g, 'No hay archivos'],
+        [/(?<=^|>)\s*Auto advance after video(?!\w)/g, 'Avance automático después del vídeo'],
+        [/(?<=^|>)\s*No pages available(?!\w)/g, 'No hay páginas disponibles'],
     ];
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
