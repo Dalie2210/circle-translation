@@ -1216,7 +1216,7 @@
         [/(?<=^|>)\s*Habilitar featured media(?!\w)/g, 'Habilitar medios destacados'],
         [/(?<=^|>)\s*Habilitar comments(?!\w)/g, 'Habilitar comentarios'],
         [/(?<=^|>)\s*Enforce video completion(?!\w)/g, 'Forzar la finalización del vídeo'],
-        [/(?<=^|>)\s*Your members will have to watch at least 90% of the video before they're able to complete a lesson.(?!\w)/g, 'Sus miembros tendrán que ver al menos el 90% del vídeo antes de poder completar una lección.'],
+        [/(?<=^|>)\s*Your members will have to watch at least 90\% of the video before they're able to complete a lesson.(?!\w)/g, 'Sus miembros tendrán que ver al menos el 90% del vídeo antes de poder completar una lección.'],
         [/(?<=^|>)\s*Añadir featured media to enable(?!\w)/g, 'Añadir medios destacados para habilitar'],
         [/(?<=^|>)\s*When a video finishes, members will be automatically advanced to the next lesson.(?!\w)/g, 'Cuando un video termina, los miembros avanzarán automáticamente a la siguiente lección.'],
         [/(?<=^|>)\s*Por defecto tab(?!\w)/g, 'Pestaña por defecto'],
@@ -1968,7 +1968,7 @@
 [/(?<=^|>)\s*Number of active DM conversations in the last 30 days(?!\w)/g, 'Número de conversaciones de DM activas en los últimos 30 días'],
 [/(?<=^|>)\s*Automático transcriptions(?!\w)/g, 'Transcripciones automáticas'],
 [/(?<=^|>)\s*Use AI to automatically generate transcripts for videos you upload in posts and lessons. Transcripts make your videos searchable and more accessible.(?!\w)/g, 'Usa IA para generar automáticamente transcripciones de los videos que subes a publicaciones y lecciones. Las transcripciones hacen que tus videos sean más fáciles de buscar y accesibles.'],
-[/(?<=^|>)\s*Boost your engagement by 32%(?!\w)/g, 'Aumente su compromiso en un 32%'],
+[/(?<=^|>)\s*Boost your engagement by 32\%(?!\w)/g, 'Aumente su compromiso en un 32%'],
 [/(?<=^|>)\s*Administrar the mobile app experience for your community(?!\w)/g, 'Administra la experiencia de la aplicación móvil para tu comunidad'],
 [/(?<=^|>)\s*Allow my members to access my community from Circle's iOS and Android app(?!\w)/g, 'Permitir que mis miembros accedan a mi comunidad desde la aplicación de Circle para iOS y Android'],
 [/(?<=^|>)\s*If enabled, your members will be able to sign in to your community via the Circle Communities(?!\w)/g, 'Si está habilitado, sus miembros podrán iniciar sesión en su comunidad a través de Circle Communities.'],
@@ -2111,6 +2111,7 @@
         });
     }, 1000);
 })();
+
 
 
 
