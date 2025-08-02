@@ -1673,7 +1673,7 @@
         [/(?<=^|>)\s*Compare plan features(?!\w)/g, 'Comparar las características del plan'],
         [/(?<=^|>)\s*Downgrade to Professional(?!\w)/g, 'Cambiar a Profesional'],
         [/(?<=^|>)\s*Professional(?!\w)/g, 'Profesional'],
-        [/(?<=^|>)\s*Administrar billing(?!\w)/g, 'Facturación administrativa'],
+        [/(?<=^|>)\s*Administrar billing(?!\w)/g, 'Administrar facturación'],
         [/(?<=^|>)\s*Your plan includes:(?!\w)/g, 'Tu plan incluye:'],
         [/(?<=^|>)\s*15 moderators(?!\w)/g, '15 moderadores'],
         [/(?<=^|>)\s*Unlimited members(?!\w)/g, 'Miembros ilimitados'],
@@ -2628,6 +2628,7 @@
         });
     }, 1000);
 })();
+
 
 
 
