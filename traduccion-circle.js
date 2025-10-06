@@ -625,9 +625,9 @@
         [/(?<=^|>)\s*para mostrarlas aquí(?!\w)/g, ' para mostrarlas aquí.'],
         [/(?<=^|>)\s*Personalizar invitation for emails that don't already have a Circle account(?!\w)/g, 'Personalizar la invitación para correos electrónicos que aún no tienen una cuenta en Circle.'],
         [/(?<=^|>)\s*Personalizar invitation for emails that already have a Circle account(?!\w)/g, 'Personalizar la invitación para correos electrónicos que ya tienen una cuenta en Circle'],
-        [/(?<=^|>)\s*Show an onboarding popup after account sign up(?!\w)/g, 'Mostrar una ventana emergente de incorporación después de registrarse en la cuenta'],
-        [/(?<=^|>)\s*Present new members with an onboarding popup after they finish account creation.(?!\w)/g, 'Presentar a los nuevos miembros una ventana emergente de incorporación después de que finalicen la creación de la cuenta.'],
-        [/(?<=^|>)\s*Send an onboarding email after account sign up(?!\w)/g, 'Enviar un correo electrónico de incorporación después de registrar la cuenta'],
+        [/(?<=^|>)\s*Show an onboarding popup after account sign up(?!\w)/g, 'Mostrar una ventana emergente de onboarding después de registrarse en la cuenta'],
+        [/(?<=^|>)\s*Present new members with an onboarding popup after they finish account creation.(?!\w)/g, 'Presentar a los nuevos miembros una ventana emergente de onboarding después de que finalicen la creación de la cuenta.'],
+        [/(?<=^|>)\s*Send an onboarding email after account sign up(?!\w)/g, 'Enviar un correo electrónico de onboarding después de registrar la cuenta'],
         [/(?<=^|>)\s*Correo electrónico new members with a customized welcome after they finish account creation.(?!\w)/g, 'Envíe un correo electrónico a los nuevos miembros con una bienvenida personalizada después de finalizar la creación de la cuenta.'],
         [/(?<=^|>)\s*Onboarding access(?!\w)/g, 'Acceso de onboarding'],
         [/(?<=^|>)\s*Grant complimentary access to all new members, regardless of how they join your community.(?!\w)/g, 'Otorgue acceso gratuito a todos los miembros nuevos, independientemente de cómo se unan a su comunidad.'],
@@ -1270,13 +1270,13 @@
         [/(?<=^|>)\s*Are you sure you want to revoke this invite link\?(?!\w)/g, '¿Estás seguro de que deseas revocar este enlace de invitación?'],
         [/(?<=^|>)\s*Numbers might include members who clicked the link but haven't completed their profile yet(?!\w)/g, 'Los números podrían incluir miembros que hicieron clic en el enlace pero aún no completaron su perfil.'],
         [/(?<=^|>)\s*Editar field(?!\w)/g, 'Editar campo'],
-        [/(?<=^|>)\s*Onboarding(?!\w)/g, 'Incorporación'],
+        [/(?<=^|>)\s*Onboarding(?!\w)/g, 'Onboarding'],
         [/(?<=^|>)\s*Mensaje new members(?!\w)/g, 'Mensaje a los nuevos miembros'],
         [/(?<=^|>)\s*Enviar a welcome message to a new member joining your community(?!\w)/g, 'Enviar un mensaje de bienvenida a un nuevo miembro que se une a tu comunidad'],
         [/(?<=^|>)\s*Gather feedback via email(?!\w)/g, 'Recopilar comentarios por correo electrónico'],
-        [/(?<=^|>)\s*Collect onboarding feedback from new community members via email(?!\w)/g, 'Recopile comentarios de incorporación de nuevos miembros de la comunidad por correo electrónico.'],
+        [/(?<=^|>)\s*Collect onboarding feedback from new community members via email(?!\w)/g, 'Recopile comentarios de onboarding de nuevos miembros de la comunidad por correo electrónico.'],
         [/(?<=^|>)\s*Gather feedback via DM(?!\w)/g, 'Recopile comentarios a través de DM'],
-        [/(?<=^|>)\s*Collect onboarding feedback from new community members via a message(?!\w)/g, 'Recopile comentarios de incorporación de nuevos miembros de la comunidad a través de un mensaje'],
+        [/(?<=^|>)\s*Collect onboarding feedback from new community members via a message(?!\w)/g, 'Recopile comentarios de onboarding de nuevos miembros de la comunidad a través de un mensaje'],
         [/(?<=^|>)\s*Subscribed(?!\w)/g, 'Suscrito'],
         [/(?<=^|>)\s*Location(?!\w)/g, 'Ubicación'],
         [/(?<=^|>)\s*Link copied to clipboard(?!\w)/g, 'Enlace copiado al portapapeles'],
@@ -1488,7 +1488,7 @@
         [/(?<=^|>)\s*Automatizaciones let you save time and money, personalize member experiences, and put your community engagement on autopilot.(?!\w)/g, 'Las automatizaciones le permiten ahorrar tiempo y dinero, personalizar las experiencias de los miembros y poner la participación de su comunidad en piloto automático.'],
         [/(?<=^|>)\s*Create your first workflow(?!\w)/g, 'Crea tu primer flujo de trabajo'],
         [/(?<=^|>)\s*Personalize member experiences(?!\w)/g, 'Personalice las experiencias de los miembros'],
-        [/(?<=^|>)\s*Create consistent, hyper-segmented onboarding flows.(?!\w)/g, 'Cree flujos de incorporación consistentes e hipersegmentados.'],
+        [/(?<=^|>)\s*Create consistent, hyper-segmented onboarding flows.(?!\w)/g, 'Cree flujos de onboarding consistentes e hipersegmentados.'],
         [/(?<=^|>)\s*Enviar 1:1 welcome messages(?!\w)/g, 'Enviar mensajes de bienvenida 1:1'],
         [/(?<=^|>)\s*Conectar like-minded members(?!\w)/g, 'Conectar miembros con ideas afines'],
         [/(?<=^|>)\s*Añadir miembros to relevant spaces right away(?!\w)/g, 'Añadir miembros a espacios relevantes de inmediato'],
@@ -1647,7 +1647,7 @@
         [/(?<=^|>)\s*Personalizar single sign-on \(SSO\)(?!\w)/g, 'Inicio de sesión único personalizado (SSO)'],
         [/(?<=^|>)\s*Priority support(?!\w)/g, 'Soporte prioritario'],
         [/(?<=^|>)\s*Sandbox community(?!\w)/g, 'Comunidad Sandbox'],
-        [/(?<=^|>)\s*Concierge onboarding \(annual plan only\)(?!\w)/g, 'Incorporación de conserjería (solo plan anual)'],
+        [/(?<=^|>)\s*Concierge onboarding \(annual plan only\)(?!\w)/g, 'onboarding de conserjería (solo plan anual)'],
         [/(?<=^|>)\s*Dedicated Customer Success Manager \(annual plan only\)(?!\w)/g, 'Gerente de éxito del cliente dedicado (solo plan anual)'],
         [/(?<=^|>)\s*Pick your plan(?!\w)/g, 'Elige tu plan'],
         [/(?<=^|>)\s*Business(?!\w)/g, 'Negocio'],
@@ -2193,7 +2193,7 @@
         [/(?<=^|>)\s*Support(?!\w)/g, 'Soporte'],
         [/(?<=^|>)\s*Accesos to the Circle customer community(?!\w)/g, 'Accesos a la comunidad de clientes de Circle'],
         [/(?<=^|>)\s*Services(?!\w)/g, 'Servicios'],
-        [/(?<=^|>)\s*Concierge onboarding(?!\w)/g, 'Incorporación de conserjería'],
+        [/(?<=^|>)\s*Concierge onboarding(?!\w)/g, 'onboarding de conserjería'],
         [/(?<=^|>)\s*Dedicated success manager(?!\w)/g, 'Gestor de éxito dedicado'],
         [/(?<=^|>)\s*Quarterly business review session(?!\w)/g, 'Sesión de revisión trimestral de negocios'],
         [/(?<=^|>)\s*Payment migrations(?!\w)/g, 'Migraciones de pagos'],
@@ -2438,7 +2438,7 @@
         [/(?<=^|>)\s*Set up group members(?!\w)/g, 'Configurar miembros del grupo'],
         [/(?<=^|>)\s*When you add a member to this group, they will be automatically given access to all the spaces in the Access tab.(?!\w)/g, 'Cuando agrega un miembro a este grupo, se le dará automáticamente acceso a todos los espacios en la pestaña Acceso.'],
         [/(?<=^|>)\s*Select members(?!\w)/g, 'Seleccionar miembros'],
-        [/(?<=^|>)\s*Confirmar member addition(?!\w)/g, 'Confirmar la incorporación de miembros'],
+        [/(?<=^|>)\s*Confirmar member addition(?!\w)/g, 'Confirmar la onboarding de miembros'],
         [/(?<=^|>)\s*Tú are about to add (\d+) members to this access group. Members will gain access immediately and will retain access until you remove them.(?!\w)/g, 'Estás a punto de añadir $1 miembros a este grupo de acceso. Los miembros obtendrá acceso inmediatamente y lo conservará hasta que lo elimines.'],
         [/(?<=^|>)\s*Adding access here is separate from and will not be linked to access granted by a paywall purchase.(?!\w)/g, 'Agregar acceso aquí es independiente y no estará vinculado al acceso otorgado mediante una compra en una pasarela de pago.'],
         [/(?<=^|>)\s*Añadir (\d+) members(?!\w)/g, 'Añadir $1 miembros'],
@@ -2628,6 +2628,7 @@
         });
     }, 1000);
 })();
+
 
 
 
