@@ -2,6 +2,8 @@
     'use strict';
     const replacements = [
         [/(?<=^|>)\s*Trending Posts(?!\w)/g, 'Popular'],
+        [/(?<=^|>)\s*Trending posts(?!\w)/g, 'Popular'],
+        [/(?<=^|>)\s*Proximamente events(?!\w)/g, 'Próximos eventos'],
         [/(?<=^|>)\s*Create space(?!\w)/g, 'Crear espacio'],
         [/(?<=^|>)\s*RSVP(?!\w)/g, 'Reserva tu cupo'],
         [/(?<=^|>)\s*Back to(?!\w)/g, 'Regresar a'],
@@ -2628,6 +2630,7 @@
         });
     }, 1000);
 })();
+
 
 
 
