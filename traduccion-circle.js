@@ -3,7 +3,6 @@
     const replacements = [
         [/(?<=^|>)\s*Trending Posts(?!\w)/g, 'Popular'],
         [/(?<=^|>)\s*Trending posts(?!\w)/g, 'Popular'],
-        [/(?<=^|>)\s*Proximamente events(?!\w)/g, 'Próximos eventos'],
         [/(?<=^|>)\s*Create space(?!\w)/g, 'Crear espacio'],
         [/(?<=^|>)\s*RSVP(?!\w)/g, 'Reserva tu cupo'],
         [/(?<=^|>)\s*Back to(?!\w)/g, 'Regresar a'],
@@ -2500,6 +2499,7 @@
         [/(?<=^|>)\s*field(?!\w)/g, 'campo'],
         [/(?<=^|>)\s*Archiving this field will hide it from member profiles and filters, and your members will no longer be able to edit the field. You can unarchive this field at any time.(?!\w)/g, 'Al archivar este campo, este se ocultará de los perfiles y filtros de los miembros, y estos ya no podrán editarlo. Puede desarchivarlo en cualquier momento.'],
         [/(?<=^|>)\s*No active profile fields.(?!\w)/g, 'No hay campos de perfil activos'],
+        [/(?<=^|>)\s*Proximamente events(?!\w)/g, 'Próximos eventos'],
     ];
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
@@ -2630,6 +2630,7 @@
         });
     }, 1000);
 })();
+
 
 
 
