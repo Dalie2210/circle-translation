@@ -1118,7 +1118,6 @@
         [/(?<=^|>)\s*Categorize your course and allow members to filter courses with the topic navigation bar in the courses directory. You can define up to 20 topics per course(?!\w)/g, 'Categoriza tu curso y permite que los miembros filtren los cursos con la barra de navegación de temas en el directorio de cursos. Puedes definir hasta 20 temas por curso.'],
         [/(?<=^|>)\s*Administrar all topics(?!\w)/g, 'Administrar todos los temas'],
         [/(?<=^|>)\s*Copys(?!\w)/g, 'Copias'],
-        [/(?<=^|>)\s*Storytelling(?!\w)/g, 'Narración de historias'],
         [/(?<=^|>)\s*Images(?!\w)/g, 'Imágenes'],
         [/(?<=^|>)\s*App de celular thumbnail(?!\w)/g, 'Miniatura de la aplicación móvil'],
         [/(?<=^|>)\s*Subir a thumbnail with a 16:9 aspect ratio for the Courses tab. Minimum image dimension: 800x450px(?!\w)/g, 'Subir una miniatura con una relación de aspecto de 16:9 para la pestaña Cursos. Dimensiones mínimas de la imagen: 800 x 450 px.'],
@@ -2632,6 +2631,7 @@
         });
     }, 1000);
 })();
+
 
 
 
