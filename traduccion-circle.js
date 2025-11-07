@@ -623,7 +623,6 @@
         [/(?<=^|>)\s*Enter number of days(?!\w)/g, 'Ingresa el número de días'],
         [/(?<=^|>)\s*Days(?!\w)/g, 'Días'],
         [/(?<=^|>)\s*Guardar and exit(?!\w)/g, 'Guardar y cerrar'],
-        [/(?<=^|>)\s*para mostrarlas aquí(?!\w)/g, ' para mostrarlas aquí.'],
         [/(?<=^|>)\s*Personalizar invitation for emails that don't already have a Circle account(?!\w)/g, 'Personalizar la invitación para correos electrónicos que aún no tienen una cuenta en Circle.'],
         [/(?<=^|>)\s*Personalizar invitation for emails that already have a Circle account(?!\w)/g, 'Personalizar la invitación para correos electrónicos que ya tienen una cuenta en Circle'],
         [/(?<=^|>)\s*Show an onboarding popup after account sign up(?!\w)/g, 'Mostrar una ventana emergente de onboarding después de registrarse en la cuenta'],
@@ -2501,6 +2500,8 @@
         [/(?<=^|>)\s*Proximamente events(?!\w)/g, 'Próximos eventos'],
         [/(?<=^|>)\s*Cronograma post(?!\w)/g, 'Programar publicación'],
         [/(?<=^|>)\s*Guardar draft(?!\w)/g, 'Guardar borrador'],
+        [/(?<=^|>)\s*A member tag lets you identify members with categories, personas, or roles(?!\w)/g, 'Una etiqueta de miembro te permite identificar por categorías, personas o roles'],
+        [/(?<=^|>)\s*add some tags(?!\w)/g, 'añadir algunas etiquetas'],
     ];
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
@@ -2631,6 +2632,7 @@
         });
     }, 1000);
 })();
+
 
 
 
