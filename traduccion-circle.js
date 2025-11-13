@@ -2503,7 +2503,8 @@
         [/(?<=^|>)\s*A member tag lets you identify members with categories, personas, or roles(?!\w)/g, 'Una etiqueta de miembro te permite identificar por categorías, personas o roles'],
         [/(?<=^|>)\s*add some tags(?!\w)/g, 'añadir algunas etiquetas'],
         [/(?<=^|>)\s*Continuar with Google(?!\w)/g, 'Continuar con Google'],
-        [/(?<=^|>)\s*There are no spaces to show. Please ask the community admin to make a space!(?!\w)/g, 'Continuar con Google'],
+        [/(?<=^|>)\s*There are no spaces to show. Please ask the community admin to make a space!(?!\w)/g, 'Para unirte a la comunidad dale clic al enlace de abajo'],
+        [/(?<=^|>)\s*Comentarios are closed for this post(?!\w)/g, 'No puedes comentar en esta publicación'],
     ];
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
@@ -2634,6 +2635,7 @@
         });
     }, 1000);
 })();
+
 
 
 
