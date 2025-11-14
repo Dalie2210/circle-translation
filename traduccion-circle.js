@@ -2506,6 +2506,8 @@
         [/(?<=^|>)\s*There are no spaces to show. Please ask the community admin to make a space!(?!\w)/g, 'Para unirte a la comunidad dale clic al enlace de abajo'],
         [/(?<=^|>)\s*Comentarios are closed for this post(?!\w)/g, 'No puedes comentar en esta publicación'],
         [/(?<=^|>)\s*Feed(?!\w)/g, 'Home'],
+        [/(?<=^|>)\s*Accept invite(?!\w)/g, 'Aceptar invitación'],
+        [/(?<=^|>)\s*Decline(?!\w)/g, 'Rechazar'],
     ];
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
@@ -2636,6 +2638,7 @@
         });
     }, 1000);
 })();
+
 
 
 
