@@ -2509,6 +2509,7 @@
         [/(?<=^|>)\s*Accept invite(?!\w)/g, 'Aceptar invitación'],
         [/(?<=^|>)\s*Decline(?!\w)/g, 'Rechazar'],
         [/(?<=^|>)\s*Start(?!\w)/g, 'Iniciar'],
+        [/(?<=^|>)\s*Enroll(?!\w)/g, 'Unirse'],
     ];
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
@@ -2639,6 +2640,7 @@
         });
     }, 1000);
 })();
+
 
 
 
