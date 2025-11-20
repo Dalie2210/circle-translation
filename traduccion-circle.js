@@ -2506,7 +2506,7 @@
         [/(?<=^|>)\s*There are no spaces to show. Please ask the community admin to make a space!(?!\w)/g, 'Para unirte a la comunidad dale clic al enlace de abajo'],
         [/(?<=^|>)\s*Comentarios are closed for this post(?!\w)/g, 'No puedes comentar en esta publicación'],
         [/(?<=^|>)\s*Feed(?!\w)/g, 'Home'],
-        [/(?<=^|>)\s*Accept invite(?!\w)/g, 'Aceptar invitación'],
+        [/(?<=^|>)\s*Accept invite(?!\w)/g, 'Confirmar asistencia'],
         [/(?<=^|>)\s*Decline(?!\w)/g, 'Rechazar'],
         [/(?<=^|>)\s*Start(?!\w)/g, 'Iniciar'],
         [/(?<=^|>)\s*Enroll(?!\w)/g, 'Unirse'],
@@ -2640,6 +2640,7 @@
         });
     }, 1000);
 })();
+
 
 
 
