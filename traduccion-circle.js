@@ -249,7 +249,7 @@
         [/(?<=^|>)\s*" I agree to the "(?!\w)/g, 'Estoy de acuerdo con los '],
         [/(?<=^|>)\s*Sign In(?!\w)/g, 'Ingresar'],
         [/(?<=^|>)\s*← Back(?!\w)/g, '← Atrás'],
-        [/(?<=^|>)\s*Join(?!\w)/g, 'Ingresar'],
+        [/(?<=^|>)\s*Join(?!\w)/g, 'Registrarse'],
         [/(?<=^|>)\s*Please create an account to accept your invitation(?!\w)/g, 'Por favor, crea una cuenta para acceder al contenido'],
         [/(?<=^|>)\s*Contraseña confirmation(?!\w)/g, 'Confirma tu contraseña'],
         [/(?<=^|>)\s*Accept invitation(?!\w)/g, 'Crear cuenta'],
@@ -2640,6 +2640,7 @@
         });
     }, 1000);
 })();
+
 
 
 
