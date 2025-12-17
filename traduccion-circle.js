@@ -249,7 +249,7 @@
         [/(?<=^|>)\s*" I agree to the "(?!\w)/g, 'Estoy de acuerdo con los '],
         [/(?<=^|>)\s*Sign In(?!\w)/g, 'Ingresar'],
         [/(?<=^|>)\s*← Back(?!\w)/g, '← Atrás'],
-        [/(?<=^|>)\s*Join(?!\w)/g, 'Registrarse'],
+        [/(?<=^|>)\s*Join(?!\w)/g, 'Crear cuenta'],
         [/(?<=^|>)\s*Please create an account to accept your invitation(?!\w)/g, 'Por favor, crea una cuenta para acceder al contenido'],
         [/(?<=^|>)\s*Contraseña confirmation(?!\w)/g, 'Confirma tu contraseña'],
         [/(?<=^|>)\s*Accept invitation(?!\w)/g, 'Crear cuenta'],
@@ -1350,7 +1350,7 @@
         [/(?<=^|>)\s*Registro de actividad are not supported on your plan(?!\w)/g, 'Los registros de actividad no son compatibles con su plan'],
         [/(?<=^|>)\s*Choose a space to post in(?!\w)/g, 'Elige un espacio para publicar'],
         [/(?<=^|>)\s*Select a block to edit its properties(?!\w)/g, 'Seleccione un bloque para editar sus propiedades'],
-        [/(?<=^|>)\s*Log in(?!\w)/g, 'Acceso'],
+        [/(?<=^|>)\s*Log in(?!\w)/g, 'Ingresar'],
         [/(?<=^|>)\s*Publicar page(?!\w)/g, 'Publicar página'],
         [/(?<=^|>)\s*Blocks(?!\w)/g, 'Bloques'],
         [/(?<=^|>)\s*Elements(?!\w)/g, 'Elementos'],
@@ -2640,6 +2640,7 @@
         });
     }, 1000);
 })();
+
 
 
 
