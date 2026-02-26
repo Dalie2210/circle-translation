@@ -2516,6 +2516,8 @@
         [/(?<=^|>)\s*Login code(?!\w)/g, 'Inserta el código de acceso'],
         [/(?<=^|>)\s*Activate account(?!\w)/g, 'Activar tu cuenta'],
         [/(?<=^|>)\s*Re-send email(?!\w)/g, 'Re-enviar código'],
+        [/(?<=^|>)\s*Crear a profile(?!\w)/g, 'Crea tu perfil'],
+        [/(?<=^|>)\s*Añadir a photo(?!\w)/g, 'Añade una foto'],
     ];
  function replaceText(node) {
         if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
@@ -2646,31 +2648,3 @@
         });
     }, 1000);
 })();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
