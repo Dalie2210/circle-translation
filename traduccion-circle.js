@@ -2512,7 +2512,7 @@
         [/(?<=^|>)\s*Enroll(?!\w)/g, 'Unirse'],
         [/(?<=^|>)\s*Check your inbox(?!\w)/g, 'Revisa tu bandeja de entrada'],
         [/(?<=^|>)\s*We've sent you a temporary 6-digit login code at(?!\w)/g, 'Enviamos un código temporal de 6 digitos al correo'],
-        [/(?<=^|>)\s*. Please enter this code to activate your account(?!\w)/g, 'Por favor ingresa ese código para activar tu cuenta'],
+        [/(?<=^|>)\s*. Please enter this code to activate your account(?!\w)/g, '. Por favor ingresa ese código para activar tu cuenta'],
         [/(?<=^|>)\s*Login code(?!\w)/g, 'Inserta el código de acceso'],
         [/(?<=^|>)\s*Activate account(?!\w)/g, 'Activar tu cuenta'],
         [/(?<=^|>)\s*Re-send email(?!\w)/g, 'Re-enviar código'],
@@ -2648,3 +2648,4 @@
         });
     }, 1000);
 })();
+
